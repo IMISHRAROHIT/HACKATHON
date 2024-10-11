@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: '18.x'
 
-      # Step 3: Install dependencies (npm install)
+      # Step 3: Install dependencies for node (npm install)
       - name: Install dependencies
         run: npm install
 
